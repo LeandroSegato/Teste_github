@@ -1,0 +1,46 @@
+
+
+body{
+
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+       
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+}
+
+.text{
+
+    border: 3px solid green;
+    padding: 5px;
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+.c-loader{
+    
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;  
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+@keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
